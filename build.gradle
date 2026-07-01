@@ -227,6 +227,7 @@ dependencies {
         resolutionStrategy {
             force("com.google.guava:guava:33.4.0-jre") // CVE for 31.1, keep to force transitive dependencies
             force("org.apache.logging.log4j:log4j-core:2.25.4") // CVE-2026-34478, CVE-2026-34477, CVE-2026-34480
+            force("org.bouncycastle:bcprov-jdk18on:1.84") // CVE-2026-0636
         }
     }
 }
